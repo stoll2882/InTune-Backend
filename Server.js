@@ -14,7 +14,7 @@ connectDB();
 app.use(express.json({ extended: false }));
 
 // Define Routes
-app.use('/api/users', require('./Server/routes/api/users'));
+app.use('/api/users', require('./routes/api/users'));
 // app.use('/api/auth', require('./Server/routes/api/auth'));
 // app.use('/api/posts', require('./Server/routes/api/posts'));
 // app.use('/api/image', require('./Server/routes/api/image'));
