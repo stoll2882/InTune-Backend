@@ -1,0 +1,13 @@
+{
+    "database": {
+        "mongoURI": "MONGOURI"
+    },
+    "server": {
+        "port": "PORT"
+    },
+    "jwtSecret": "JWTSECRET",
+    "profilePics": {
+        "storageUrl": "PROFILE_PIC_STORAGE_URL",
+        "connectionString": "PROFILE_PIC_CONNECTION_STRING"
+    }
+}
